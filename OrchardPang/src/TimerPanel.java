@@ -97,7 +97,7 @@ public class TimerPanel extends JPanel {
 			
 			if(obj == btnPause) {
 				flag = false;
-				lblMark.suspend();
+				lblMark.stop();
 				
 				
 			}
