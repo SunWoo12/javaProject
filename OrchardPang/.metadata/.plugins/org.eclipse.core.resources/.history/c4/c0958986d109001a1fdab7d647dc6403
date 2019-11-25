@@ -1,0 +1,6 @@
+import javax.swing.JLabel;
+import java.awt.*;
+
+public class TimerThread extends JLabel {
+
+}

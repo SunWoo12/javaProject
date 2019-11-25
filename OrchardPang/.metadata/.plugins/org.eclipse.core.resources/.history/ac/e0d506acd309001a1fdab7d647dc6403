@@ -1,0 +1,45 @@
+import javax.swing.*;
+import java.awt.*;
+
+
+
+public class TimerPanel extends JPanel {
+
+	private JPanel leftPanel,rightPanel;
+	private JLabel lblTimer;
+	private JLabel lblMark;
+	
+	public TimerPanel() {
+		
+		setPreferredSize(new Dimension(600,600));
+		setBackground(Color.white);
+		setLayout(null);
+		
+		leftPanel = new JPanel();
+		leftPanel.setBounds(10,10,400,580);
+		leftPanel.setLayout(null);
+		leftPanel.setBackground(Color.cyan);
+		add(leftPanel);
+		
+		rightPanel = new JPanel();
+		rightPanel.setBounds(420, 10, 170, 580);
+		rightPanel.setLayout(null);
+		rightPanel.setBackground(Color.pink);
+		add(rightPanel);
+		
+		
+		lblTimer = new JLabel("Timer");
+		lblTimer.setBounds(20, 40, 130, 50);
+		lblTimer.setFont(new Font("Verdana",Font.BOLD,30));
+		lblTimer.setHorizontalAlignment(SwingConstants.CENTER);
+		rightPanel.add(lblTimer);
+		
+		lblMark = new JLabel("00:00");
+		lblMark.setBounds(20,100,130,40);
+		lblMark.setFont(new Font("Verdana",Font.ITALIC,30));
+		lblMark.setHorizontalAlignment(SwingConstants.CENTER);
+		rightPanel.add(lblMark);
+		
+	}
+	
+}

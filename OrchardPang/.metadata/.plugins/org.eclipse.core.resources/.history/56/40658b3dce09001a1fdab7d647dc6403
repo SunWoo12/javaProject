@@ -1,0 +1,16 @@
+import javax.swing.JFrame;
+
+public class TimerExam {
+
+	public static void main(String[] args) {
+		JFrame frame = new JFrame("OrchardPang");
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		frame.getContentPane().add(comp);
+		
+		frame.pack();
+		frame.setVisible(true);
+
+	} // main()
+
+} //TimerExam class

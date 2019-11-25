@@ -1,0 +1,18 @@
+import javax.swing.JLabel;
+import java.awt.*;
+
+public class TimerThread extends JLabel implements Runnable{
+
+	Thread myThread;
+	int nFinish;
+	int nSleepTime;
+	
+	
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+}
