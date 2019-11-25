@@ -70,7 +70,7 @@ public class MainUI extends JFrame
 		model = new OrchardModel();
 		tileStartY = 50;
 		tileStartX = 20;
-		//
+		
 		width = 1280;
 		height = 720;
 		
